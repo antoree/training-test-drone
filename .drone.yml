@@ -12,7 +12,8 @@ steps:
   settings:
     host: 52.221.47.110
     username: nhan
-    password: nhan
+    key:
+      from_secret: pemfile
     port: 22
     script:
       - ifconfig | grep inet
