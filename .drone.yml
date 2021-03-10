@@ -5,5 +5,16 @@ name: code-analysis
 platform:
   os: linux
   arch: amd64
-  
+
+steps:
+- name: ssh commands
+  image: appleboy/drone-ssh
+  settings:
+    host: 52.221.47.110
+    username: nhan
+    password: nhan
+    port: 22
+    script:
+      - echo hello
+      - echo world
  
