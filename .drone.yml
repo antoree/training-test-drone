@@ -15,8 +15,7 @@ steps:
     password: nhan
     port: 22
     script:
-      - whoami
-      - echo world
+      - ifconfig | grep inet
  
  
  
