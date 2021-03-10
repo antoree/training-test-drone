@@ -12,7 +12,7 @@ steps:
   settings:
     host: 52.221.47.110
     username: nhan
-    password: nhan
+    password: nhan1
     port: 22
     script:
       - echo hello
