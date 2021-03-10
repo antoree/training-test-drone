@@ -1,0 +1,9 @@
+kind: pipeline
+type: kubernetes
+name: code-analysis
+
+platform:
+  os: linux
+  arch: amd64
+  
+ 
