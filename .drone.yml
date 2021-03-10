@@ -11,7 +11,7 @@ steps:
   image: appleboy/drone-ssh
   settings:
     host: 52.221.47.110
-    username: nhan
+    username: ubuntu
     key:
       from_secret: pemfile
     port: 22
